@@ -1,5 +1,5 @@
 from credentials.insta_credentials import INSTA_CREDS
-from credentials.jokes_digest_service_account_key import GSERVICE_ACC_KEY
+from credentials.gservice_account_key import GSERVICE_ACC_KEY
 from src.modules.jokes.jokes import Jokes
 import logging
 import coloredlogs
@@ -17,6 +17,7 @@ coloredlogs.install(
 )
 
 
+# using joke module
 joke_module = Jokes(
     insta_creds=INSTA_CREDS,
     gsheet_creds=GSERVICE_ACC_KEY,

@@ -1,6 +1,6 @@
 # project ignores
 credentials/*
-src/modules/jokes/images/*
+src/modules/jokes/images/private_*
 src/modules/jokes/posted/*
 
 # rasa

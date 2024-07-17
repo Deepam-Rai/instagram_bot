@@ -13,7 +13,7 @@ class InstaPublisher:
         self.client.login(insta_creds["username"], insta_creds["password"])
 
     def publish_photo(self, path: Path, caption: str = None):
-        self.client.photo_upload(path, caption)
+        self.client.photo_upload(path=path, caption=caption)
 
     def publish_album(self, paths: list[Path], caption: str = None):
-        self.client.album_upload(paths, caption)
+        self.client.album_upload(paths=paths, caption=caption)
