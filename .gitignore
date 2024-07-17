@@ -1,6 +1,8 @@
 # project ignores
-credentials.py
-images/*
+credentials/*
+src/modules/jokes/images/*
+src/modules/jokes/posted/*
+
 # rasa
 .config
 .keras

@@ -1,7 +1,14 @@
-VERT_OFFSET = 0.10  # static Constant
-CONTRAST_FACTOR = 0.5  # contrast multiplier
-PARA_PADDING = 10
-PARA_WIDTH = 40
-DEFAULT_FONT = 'IBMPlexSerif-Regular.ttf'
-FONT_COLOR = "black"
-FONT_SIZE = 48
+LOGGER_FIELD_STYLE = {
+    'asctime': {'color': 'green'},
+    'levelname': {'bold': True, 'color': 'black'},
+    'filename': {'color': 'cyan'},
+    'funcName': {'color': 'magenta'}
+}
+
+LOGGER_LEVEL_STYLES = {
+    'critical': {'bold': True, 'color': 'red'},
+    'debug': {'color': 'green'},
+    'error': {'color': 'red'},
+    'info': {'color': 'blue'},
+    'warning': {'color': 'yellow'}
+}
