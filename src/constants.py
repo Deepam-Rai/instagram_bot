@@ -4,7 +4,7 @@ PARA_PADDING = 10
 PARA_WIDTH = 40
 DEFAULT_FONT = 'Symbola.ttf'
 FONT_COLOR = "black"
-FONT_SIZE = 48
+FONT_SIZE = 54
 
 
 

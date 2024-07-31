@@ -71,6 +71,5 @@ joke_module.publish_new_joke()
 ```
 
 ----
-#TODO
-1. handling emojis
+
 
