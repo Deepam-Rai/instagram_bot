@@ -4,7 +4,7 @@ from src.modules.jokes.jokes import Jokes
 import logging
 import coloredlogs
 from constants import *
-
+from src.modules.quotes.quotes import Quotes
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -18,10 +18,15 @@ coloredlogs.install(
 
 
 # using joke module
-joke_module = Jokes(
-    insta_creds=INSTA_CREDS,
-    gsheet_creds=GSERVICE_ACC_KEY,
-    gsheet_title="jokes",
-    worksheet_title="jokes"
-)
-joke_module.publish_new_joke()
+# joke_module = Jokes(
+#     insta_creds=INSTA_CREDS,
+#     gsheet_creds=GSERVICE_ACC_KEY,
+#     gsheet_title="jokes",
+#     worksheet_title="jokes"
+# )
+# joke_module.publish_new_joke()
+
+
+# using quote module
+quotes_module = Quotes()
+quotes_module.get_new()
